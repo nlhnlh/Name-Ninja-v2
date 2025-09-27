@@ -1,0 +1,25 @@
+/* styles.css - basic styles for Name Ninja (externalized from index.html) */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3730a3 100%);
+  color: white;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* small debug state used by script.js demo */
+.header.demo-active {
+  outline: 3px solid rgba(245, 158, 11, 0.35);
+}
+
+/* keep rest minimal since index.html contains inline styles for the page */
